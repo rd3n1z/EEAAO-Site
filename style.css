@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000; /* Adding a black background for better contrast */
+}
+
+.hero {
+    background-image: url('sol-blackshaw-bagel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050505;
+    margin: 50px auto;
+}
+
+.quote {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+.quote2{
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    color: rgb(243, 201, 11);
+    font-size: 25px;
+    margin: 50px auto;
+    
+}
+
+.quote3 {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    color: rgb(243, 201, 11);
+    font-size: 23px;
+    margin: 50px auto;
+}
+
+.quote4 {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    color: rgb(243, 201, 11);
+    font-size: 20px;
+    margin: 50px auto;
+}
+
+.quote::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('rock-scene.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.quote2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('raymond.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.quote3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('jamie-lee-curtis-and-michelle-yeoh-in-the-everything-everywhere-all-at-once-hot-dog-finger-universe.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.quote4::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('iloveu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+p {
+    z-index: 1;
+    text-shadow: 2px 2px 0 black;
+}
+
+/*PHOTO EFFECT*/
+
+.quote, .quote2, .quote3, .quote4 {
+    border: 20px solid rgb(233, 233, 233);
+}
